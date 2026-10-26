@@ -1,0 +1,273 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#090909;
+color:#fff;
+line-height:1.6;
+}
+
+header{
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.95);
+border-bottom:2px solid #D4AF37;
+}
+
+.logo h1{
+color:#D4AF37;
+font-size:30px;
+}
+
+.logo p{
+color:#B22222;
+font-size:14px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:20px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#D4AF37;
+}
+
+.hero{
+padding:120px 10%;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85));
+}
+
+.hero h2{
+font-size:52px;
+color:#D4AF37;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 40px;
+background:#B22222;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#D4AF37;
+color:#111;
+transform:translateY(-3px);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+padding:80px 8%;
+}
+
+.card{
+background:#141414;
+padding:30px;
+border-radius:12px;
+border:1px solid #D4AF37;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(212,175,55,.4);
+}
+
+footer{
+margin-top:70px;
+padding:30px;
+text-align:center;
+border-top:2px solid #D4AF37;
+background:#111;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:20px;
+}
+
+nav a{
+display:block;
+margin:12px 0;
+}
+
+.hero h2{
+font-size:36px;
+}
+
+}
+.topbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 8%;
+
+background:#0b0b0b;
+
+}
+
+.topbar nav{
+
+display:flex;
+
+gap:35px;
+
+}
+
+.topbar nav a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.logo img{
+
+height:70px;
+
+}
+
+.login-btn{
+
+background:#D4AF37;
+
+color:black;
+
+padding:12px 25px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.hero{
+
+min-height:80vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:72px;
+
+line-height:1.1;
+
+color:#D4AF37;
+
+}
+
+.hero p{
+
+margin:30px 0;
+
+font-size:22px;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.secondary{
+
+background:#222;
+
+color:white;
+
+}
+.member-table{
+
+width:90%;
+
+margin:40px auto;
+
+border-collapse:collapse;
+
+}
+
+.member-table th,
+.member-table td{
+
+padding:15px;
+
+border:1px solid #D4AF37;
+
+text-align:center;
+
+}
+
+.member-table th{
+
+background:#B22222;
+
+color:white;
+
+}
+
+.member-table tr{
+
+background:#111;
+
+}
+
+.member-table tr:hover{
+
+background:#1f1f1f;
+
+}
